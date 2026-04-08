@@ -88,4 +88,18 @@ The center of the OSI model, providing end-to-end reliable communication.
 
 ### 3. Network Layer
 Responsible for routing packets across various networks.
-* **Functions:** Logical Addressing (IP), Routing (determining the optimal
+* **Functions:** Logical Addressing (IP), Routing (determining the optimal path), and Fragmentation.
+* **Example:** Attaching Source/Dest IP headers to a Segment to create a Packet for routing via Routers.
+
+### 2. Data Link Layer
+Encapsulates packets into frames for transmission between adjacent devices (node-to-node).
+* **Functions:** Frame packaging, MAC addressing, and Error checking using CRC (Cyclic Redundancy Check).
+* **Example:** A Switch reads the MAC Destination to transfer a frame to the correct port.
+
+### 1. Physical Layer
+The lowest layer, responsible for transmitting raw bits (0 and 1).
+* **Functions:** Convert bits into physical signals (voltage, light, radio waves) and bit synchronization.
+* **Example:** Converting bit 1 to high voltage (+5V) and bit 0 to low voltage (0V) for transmission over UTP cables.
+
+---
+*This research project was developed to support networking and systems studies.*
